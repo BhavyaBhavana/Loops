@@ -1,0 +1,64 @@
+LOOPS :
+
+For loop :
+
+PROGRAM :
+
+public class ForLoopExample {
+    public static void main(String[] args) {
+        // Print numbers from 1 to 5 using a for loop
+        for (int a = 5; a <= 10; a++) {
+            System.out.println(a);
+        }
+    }
+}
+
+
+While loop :
+
+Program :
+
+public class WhileLoopExample {
+    public static void main(String[] args) {
+        // Print numbers from 10 to 20 using a while loop
+        int z = 10;
+        while (z <= 20) {
+            System.out.println(z);
+            z++;
+        }
+    }
+}
+
+
+
+Do-while loop :
+
+Program :
+
+public class DoWhileLoopExample {
+    public static void main(String[] args) {
+        // Print numbers from 10 to 15 using a do while loop
+        int A = 10;
+        do {
+            System.out.println(A);
+            A++;
+        } while (A <= 15);
+    }
+}
+
+
+
+For each loop :
+
+Program :
+
+public class ForEachLoop {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        for (int number : numbers) {
+            System.out.println("Number is: " + number);
+        }
+    }
+}
+
+
